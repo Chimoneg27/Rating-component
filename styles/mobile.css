@@ -12,3 +12,19 @@
     --Dark-Blue: hsl(213, 19%, 18%);
     --Very-Dark-Blue: hsl(216, 12%, 8%);
 }
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--Very-Dark-Blue);
+    color: var(--White);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 2rem auto;
+    background-color: var(--Dark-Blue);
+    padding: 1rem;
+    border-radius: 10px;
+}
