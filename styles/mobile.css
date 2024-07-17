@@ -27,4 +27,23 @@ body {
     background-color: var(--Dark-Blue);
     padding: 1rem;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+.container ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#star-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
 }
