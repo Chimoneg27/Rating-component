@@ -11,6 +11,7 @@
     --Light-Grey: hsl(217, 12%, 63%);
     --Dark-Blue: hsl(213, 19%, 18%);
     --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%);
 }
 
 body {
@@ -30,7 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 50vh;
+    height: 53vh;
 }
 
 .container ul {
@@ -42,8 +43,22 @@ body {
     width: 90%;
 }
 
+.repport {
+    color: var(--Light-Grey);
+}
+
 #star-image {
     width: 2.5rem;
     height: 2.5rem;
     padding: 0.5rem;
+}
+
+#submitBtn {
+    background-color: var(--Orange);
+    color: var(--Very-Dark-Blue);
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
 }
