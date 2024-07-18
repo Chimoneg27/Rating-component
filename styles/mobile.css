@@ -24,14 +24,14 @@ body {
 
 .container {
     width: 90%;
-    margin: 2rem auto;
+    margin: 4rem auto;
     background-color: var(--Dark-Blue);
     padding: 1rem;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 53vh;
+    height: 58vh;
 }
 
 .container ul {
@@ -40,17 +40,32 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
 }
 
-.repport {
+.report {
     color: var(--Light-Grey);
+
 }
 
-#star-image {
+.ratings {
+    border-radius: 10rem;
+    box-shadow: 0px 19px 21px 15px rgba(0,0,0,0.1);
     width: 2.5rem;
     height: 2.5rem;
     padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#star-image {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    box-shadow: 0px 19px 21px 15px rgba(0,0,0,0.1);
+    border-radius: 11rem;
 }
 
 #submitBtn {
