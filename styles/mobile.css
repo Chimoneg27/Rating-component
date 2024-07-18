@@ -60,6 +60,12 @@ body {
     text-align: center;
 }
 
+.ratings:hover {
+    color: var(--Very-Dark-Blue);
+    background-color: var(--White);
+    cursor: pointer;
+}
+
 #star-image {
     width: 2rem;
     height: 2rem;
@@ -76,4 +82,10 @@ body {
     border: none;
     padding: 1rem;
     border-radius: 2rem;
+}
+
+#submitBtn:hover {
+    background-color: var(--White);
+    color: var(--Very-Dark-Blue);
+    cursor: pointer;
 }
