@@ -3,10 +3,6 @@ let selectedLi;
 let submitBtn = document.getElementById('submitBtn');
 let ratingsValue;
 
-const submitRating = () => {
-    // console.log(ratings)
-}
-
 ul.onclick =  function(e) {
     if(e.target.tagName != 'LI') return;
     selected(e.target);
@@ -19,6 +15,11 @@ const selected = (li) => {
 
     selectedLi = li;
     selectedLi.classList.add('rated');
+    ratingsValue = selectedLi.getAttribute('data-value')
+}
+
+const submitRating = () => {
+    console.log(ratingsValue)
 }
 
 submitBtn.addEventListener('click', submitRating);
