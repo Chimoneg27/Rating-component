@@ -90,7 +90,7 @@ body {
     cursor: pointer;
 }
 
-.rated {
+li.rated {
     background-color: var(--Orange);
     color: var(--Very-Dark-Blue);
 }
