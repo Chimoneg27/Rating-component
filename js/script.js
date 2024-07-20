@@ -2,6 +2,8 @@ let ul = document.querySelector('ul');
 let selectedLi;
 let submitBtn = document.getElementById('submitBtn');
 let ratingsValue;
+let thankYouCard = document.getElementById('thankYou')
+let ratingCard = document.getElementsByClassName('container')
 
 ul.onclick =  function(e) {
     if(e.target.tagName != 'LI') return;
@@ -19,7 +21,8 @@ const selected = (li) => {
 }
 
 const submitRating = () => {
-    console.log(ratingsValue)
+        ratingCard[0].style.display = 'none'
+        thankYouCard.style.display = 'flex'
 }
 
 submitBtn.addEventListener('click', submitRating);
