@@ -94,3 +94,15 @@ li.rated {
     background-color: var(--Orange);
     color: var(--Very-Dark-Blue);
 }
+
+.thankYou {
+    width: 90%;
+    margin: 4rem auto;
+    background-color: var(--Dark-Blue);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 58vh;
+}
