@@ -112,3 +112,14 @@ li.rated {
     width: 10rem;
     height: 7rem;
 }
+
+#you {
+    padding: 0.25rem;
+    width: 55%; 
+    color: var(--Orange);
+    border-radius: 2rem;
+    background-color: hsl(210, 7%, 28%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
