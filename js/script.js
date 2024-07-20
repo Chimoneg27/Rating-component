@@ -4,6 +4,7 @@ let submitBtn = document.getElementById('submitBtn');
 let ratingsValue;
 let thankYouCard = document.getElementById('thankYou')
 let ratingCard = document.getElementsByClassName('container')
+let you = document.getElementById('you')
 
 ul.onclick =  function(e) {
     if(e.target.tagName != 'LI') return;
@@ -23,6 +24,7 @@ const selected = (li) => {
 const submitRating = () => {
         ratingCard[0].style.display = 'none'
         thankYouCard.style.display = 'flex'
+        you.textContent = `You selected ${ratingsValue} out of 5`
 }
 
 submitBtn.addEventListener('click', submitRating);
