@@ -104,5 +104,11 @@ li.rated {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     height: 58vh;
+}
+
+#thanks {
+    width: 10rem;
+    height: 7rem;
 }
