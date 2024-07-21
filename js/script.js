@@ -24,7 +24,11 @@ const selected = (li) => {
 const submitRating = () => {
         ratingCard[0].style.display = 'none'
         thankYouCard.style.display = 'flex'
-        you.textContent = `You selected ${ratingsValue} out of 5`
+        if (typeof ratingsValue === 'undefined') {
+            you.textContent = `Please go back and give your rating`
+        }else {
+            you.textContent = `You selected ${ratingsValue} out of 5`
+        }
 }
 
 submitBtn.addEventListener('click', submitRating);
