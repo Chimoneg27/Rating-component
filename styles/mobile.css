@@ -128,3 +128,10 @@ li.rated {
     align-items: center;
     justify-content: center;
 }
+
+.attribution {
+    text-align: center;
+    color: var(--Light-Grey);
+    font-size: 0.75rem;
+    margin: 2rem auto;
+}
